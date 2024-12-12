@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 //import 'package:flutter/widgets.dart';
-import 'package:flutter_application_1/dice_roller.dart';
+import 'package:dice_generator/dice_roller.dart';
 //import 'package:flutter_application_1/centre_text.dart';
 
 var stAllingment = Alignment.topCenter;
