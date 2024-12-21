@@ -35,14 +35,14 @@ const RESOURCES = {"assets/assests/dice-images/dice-1.png": "252bc7a8b61cb8d664a
 "canvaskit/skwasm.worker.js": "89990e8c92bcb123999aa81f7e203b1c",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "f393d3c16b631f36852323de8e583132",
-"flutter_bootstrap.js": "72736a39d13f0947c753e96cfa7a50bb",
+"flutter_bootstrap.js": "d5125d8472fa504288b6b63813de9c8a",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "index.html": "b275eefe54ea86afa8fab4b784d6fff5",
 "/": "b275eefe54ea86afa8fab4b784d6fff5",
-"main.dart.js": "4462a745270da35e776ca36bc030f7c4",
+"main.dart.js": "6e5112bce0b2e166ca569f50c00e8bd4",
 "manifest.json": "bf24c84c3bf99672a631c4f84464e793",
 "version.json": "fe02342f89289f72f90eaa5a71732d2b"};
 // The application shell files that are downloaded before a service worker can
