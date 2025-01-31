@@ -39,6 +39,7 @@ class _DiceRollerState extends State<DiceRoller> {
             onTap: rollDice,
             onLongPress: resetoOne,
             child: FadeInImage(
+              height: 200,
               placeholder:
                   AssetImage('assests/dice-images/dice-$diceValue.png'),
               image: AssetImage('assests/dice-images/dice-$diceValue.png'),
