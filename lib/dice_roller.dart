@@ -26,6 +26,9 @@ class _DiceRollerState extends State<DiceRoller> {
       diceValue = 1;
     });
   }
+  void changeImage(){
+    
+  }
 
   @override
   Widget build(context) {
@@ -33,11 +36,19 @@ class _DiceRollerState extends State<DiceRoller> {
       mainAxisSize: MainAxisSize.min,
       children: [
         InkWell(
-          onTap: rollDice,
-          onLongPress: resetoOne,
-          child: Image.asset('assests/dice-images/dice-$diceValue.png',
-              width: 200),
-        ),
+            onTap: rollDice,
+            onLongPress: resetoOne,
+            child: FadeInImage(
+              placeholder:
+                  AssetImage('assests/dice-images/dice-$diceValue.png'),
+              image: AssetImage('assests/dice-images/dice-$diceValue.png'),
+            )
+            // Image.asset(
+            //   'assests/dice-images/dice-$diceValue.png',
+            //   width: 200,
+            //   height: 200,
+            // ),
+            ),
         TextButton(
           style: TextButton.styleFrom(
             padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 100),
